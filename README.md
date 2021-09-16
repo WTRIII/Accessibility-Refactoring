@@ -20,7 +20,7 @@ A marketing company requested a refactor of their existing website. The company 
 - CSS stylesheet reordered and placed into sections with comments to indicate settings which control various functions of the website
 
 ## Image of website after implementation of changes:
-![Horiseon Webpage]()
+![Horiseon Webpage](assets/images/Horiseon-Webpage-Updated.png)
 
 # Original User Story
 

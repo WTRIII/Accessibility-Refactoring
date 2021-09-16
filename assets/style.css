@@ -1,3 +1,4 @@
+/* Begin Universal Settings*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,29 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* End Universal Settings */
+
+/*Positional class settings*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*---------------------*/
+
+/*Begin Class Settings*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,8 +47,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+    /*Navigation Bar settings*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,49 +56,36 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+    /* This code does not appear to have a function*/
+.header nav ul {
     list-style-type: none;
 }
-
-.header div ul li {
+    /*---------------------*/
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+    /* end Navigation Bar settings*/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+    /*settings for main image of people in a meeting*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+    /*Settings for the search engine optimization, online reputation management, and social media marketing that define width and display */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+    /*---------------------*/
 
+    /*Aside settings*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,8 +96,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+    /*---------------------*/
 
-.benefit-lead {
+    /* The following settings could be in consolidated into fewer classes, since they share the same settings or turned into ids*/
+    /*Requisite changes would be needed in HTML to match classes*/
+    /*Aside content settings*/
+.benefit-lead { /*could consolidate into .benefits-section and class relevant elements*/
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -101,14 +116,16 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h3 { /*could consolidate into .benefit-headers and class relevant elements*/
     margin-bottom: 10px;
     text-align: center;
+    
 }
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 20px;
 }
 
 .benefit-cost h3 {
@@ -116,7 +133,7 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img { /*could consolidate into .benefits-img and class relevant images*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -133,8 +150,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+    /*end Aside settings*/
 
-.search-engine-optimization {
+    /*Content section settings*/
+.search-engine-optimization { /*could consolidate into .content-sections and class relevant elements*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,7 +180,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img { /*could consolidate into .content-image and class relevant images*/
     max-height: 200px;
 }
 
@@ -173,7 +192,7 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2 { /*could consolidate into .content-header and class relevant elements*/
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -187,6 +206,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+    /*end Content section settings*/
+    /* end settings that could be consolidated into fewer classes*/
 
 .footer {
     padding: 30px;
@@ -195,6 +216,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
+/* End Class Settings*/

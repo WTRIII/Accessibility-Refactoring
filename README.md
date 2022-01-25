@@ -1,4 +1,4 @@
-# Homework-1-Accessibility
+# Accessibility
 A marketing company requested a refactor of their existing website. The company requested the following criteria: 
 
 - semantic HTML elements
